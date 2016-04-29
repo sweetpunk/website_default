@@ -18,7 +18,7 @@
     float: left;
 }
 
-.header {
+.slider {
     margin: 0 auto;
     width: 601px;
     height: 301px;
@@ -63,4 +63,18 @@
 .carousel-inner > .item > a > img {
     width: 600px;
     height: 300px;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 570px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
