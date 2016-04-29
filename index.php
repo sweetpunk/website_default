@@ -6,5 +6,5 @@
  * Time: 11:30
  */
 
-header('Location: php/layout.php');
+header('Location: php/home.php');
 exit;

@@ -54,7 +54,7 @@
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="{if $isActive == 1}active{/if}"><a href="../php/layout.php">Construction</a></li>
+                        <li class="{if $isActive == 1}active{/if}"><a href="../php/contact.php">Construction</a></li>
                         <li class="{if $isActive == 2}active{/if}"><a href="../php/contact.php">Maisons</a></li>
                         <li class="{if $isActive == 3}active{/if}"><a href="../php/contact.php">Services</a></li>
                         <li class="{if $isActive == 4}active{/if}"><a href="../php/contact.php">Tarifs</a></li>
