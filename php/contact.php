@@ -14,3 +14,4 @@ if (isset($_POST) && $_POST['send']) {
 $smarty->assign('isActive', "5");
 $smarty->display('../tpl/layout.tpl');
 $smarty->display('../tpl/contact.tpl');
+$smarty->display('../tpl/footer.tpl');
