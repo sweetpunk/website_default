@@ -17,3 +17,50 @@
     display: inline-block;
     float: left;
 }
+
+.header {
+    margin: 0 auto;
+    width: 601px;
+    height: 301px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+}
+
+.item img{
+    margin: 0 auto;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 600px;
+    height: 300px;
+}

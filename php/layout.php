@@ -6,7 +6,7 @@
  * Time: 11:34
  */
 
-require('../lib/libs/Smarty/Smarty.class.php');
+require_once('../lib/libs/Smarty/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->setTemplateDir('/home/louis/PhpstormProjects/russian/smarty/templates');
@@ -18,7 +18,4 @@ $smarty->setConfigDir('/home/louis/PhpstormProjects/russian/smarty/configs');
 $array = array('bonjour', 'ceci', 'est', 'un', 'array');
 $string = "<span style='color: red;'>exemple de fonctionnement basique de smarty !</span>";
 
-$smarty->assign('string', $string);
-$smarty->assign('array', $array);
-$smarty->assign('content', 'directement ici ! <br/>');
 $smarty->display('../tpl/layout.tpl');
