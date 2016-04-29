@@ -7,3 +7,5 @@
     <script type="text/javascript" src="../js/bootstrap.js"></script>
     <title>Swag</title>
 </head>
+
+{$test}
