@@ -8,4 +8,17 @@
     <title>Swag</title>
 </head>
 
-{$test}
+<div>
+    {$string}<br><br>
+
+    {var_dump($array)}<br>
+
+    tu peux ecrire {$content} <br>
+
+    <input type="button" class="btn-primary" value="test"/>
+    <input type="button" class="btn-warning" value="test"/>
+    <input type="button" class="btn-danger" value="test"/>
+    <input type="button" class="btn-group" value="test"/>
+    <input type="button" class="btn-info" value="test"/>
+
+</div>

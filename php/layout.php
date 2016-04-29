@@ -15,5 +15,10 @@ $smarty->setCacheDir('/home/louis/PhpstormProjects/russian/smarty/cache');
 $smarty->setConfigDir('/home/louis/PhpstormProjects/russian/smarty/configs');
 
 
-$smarty->assign('test', 'coucou');
+$array = array('bonjour', 'ceci', 'est', 'un', 'array');
+$string = "<span style='color: red;'>exemple de fonctionnement basique de smarty !</span>";
+
+$smarty->assign('string', $string);
+$smarty->assign('array', $array);
+$smarty->assign('content', 'directement ici ! <br/>');
 $smarty->display('../tpl/layout.tpl');
