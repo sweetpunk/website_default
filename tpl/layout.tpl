@@ -1,7 +1,8 @@
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link href='../css/bootstrap-theme.css' rel='stylesheet' type='text/css' />
     <link href='../css/bootstrap.css' rel='stylesheet' type='text/css' />
+    <link href='../css/comon.css' rel='stylesheet' type='text/css' />
     <!--<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />-->
 
     <script type="text/javascript" src="../js/bootstrap.js"></script>

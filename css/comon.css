@@ -1,0 +1,19 @@
+.contact label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin-top: 20px;
+}
+.contact input {
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.contact textarea {
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+}
