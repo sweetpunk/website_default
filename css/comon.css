@@ -1,10 +1,11 @@
-form {
-    height: 1000px;
+body {
+
 }
 
-.contact {
-    height: 1000px;
+form {
+    height: 100%;
 }
+
 
 .contact label{
     display: inline-block;
@@ -115,5 +116,31 @@ body > .container {
 }
 
 .footer {
+    margin-top: 0px;
+    max-height: 315px;
     height: 100%;
+    background-color: lightgrey;
+}
+
+.tiny-contact {
+    float: left;
+    width: 25%;
+    margin-left: 100px;
+}
+
+.tiny-contact h2 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.tiny-contact-list {
+    font-size: 13px;
+}
+.certif {
+    float: none;
+}
+
+.certif img {
+    width: 250px;
+    height: 150px;
 }

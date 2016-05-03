@@ -1,5 +1,5 @@
 <div class="form">
-    <form method="post" action="../php/contact.php">
+    <form method="post" action="../php/contact.php" role="form">
         <div id="form" class="contact">
             <input type="hidden" name="send" value="1"/>
             <div class="form-group">
