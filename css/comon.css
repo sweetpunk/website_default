@@ -1,3 +1,11 @@
+form {
+    height: 1000px;
+}
+
+.contact {
+    height: 1000px;
+}
+
 .contact label{
     display: inline-block;
     float: left;
@@ -18,6 +26,10 @@
     float: left;
 }
 
+.form-group {
+    height: 30px;
+}
+
 .slider {
     margin: 0 auto;
     width: 601px;
@@ -29,6 +41,8 @@
     width: 600px;
     height: 300px;
 }
+
+
 
 .item img{
     margin: 0 auto;
@@ -98,4 +112,8 @@ footer{
 
 body > .container {
     padding-top: 60px;
+}
+
+.footer {
+    height: 100%;
 }

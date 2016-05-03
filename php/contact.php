@@ -8,7 +8,7 @@
 
 include('./layout.php');
 
-if (isset($_POST) && $_POST['send']) {
+if (isset($_POST) && $_POST) {
     $res = mail('sweetpunk4242@gmail.com', 'Demande de contact', 'prise de contact');
 }
 $smarty->assign('isActive', "5");

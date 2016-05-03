@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
     <div class="container">
         <ul class="">
             <li class="{if $isActive == 1}active{/if}"><a href="../php/contact.php">Construction</a></li>
